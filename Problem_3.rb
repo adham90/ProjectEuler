@@ -1,3 +1,7 @@
+# http://projecteuler.net/problem=3
+# Answer: 6857
+# ---------------------------------
+
 require "prime"
 
 num = 600851475143

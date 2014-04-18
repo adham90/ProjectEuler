@@ -1,3 +1,7 @@
+# http://projecteuler.net/problem=2
+# Answer: 4613732
+# ---------------------------------
+
 start = 1
 term = 2
 sum = 0

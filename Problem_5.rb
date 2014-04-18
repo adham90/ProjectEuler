@@ -6,9 +6,7 @@ min_num = 30
 
 def true_num n
   (11...20).each do |i|
-    if n%i != 0
-      return false
-    end
+    return false if n%i != 0
   end
   return true
 end

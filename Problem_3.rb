@@ -2,14 +2,10 @@
 # Answer: 6857
 # ---------------------------------
 
-require "prime"
-
-num = 600851475143
-
-(2..num).each do |n|
-	p n if Prime.prime?(n) and num%n == 0
+def max_num(n)
+  factor = (2..n).find {|x| n % x == 0}
+  return factor if n/factor == 1
+  max_num(n / factor)
 end
 
-
-
-
+puts max_num(600851475143)

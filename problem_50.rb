@@ -1,3 +1,7 @@
+# https://projecteuler.net/problem=50
+# Answer: 997651
+# -----------------------------------
+
 require 'prime'
 
 @max_num = {}
